@@ -6,10 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="222db412-30fe-4d50-b1d6-3fac1d7a5d8a" name="Changes" comment="Novi komit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Base/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/PracticePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/PracticePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/SidebarPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/SidebarPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Tests/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/LoginTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,10 +37,11 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "TestNG.LoginTests.executor": "Run",
+    "TestNG.LoginTests.userCanLogIn.executor": "Run",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.LoginTests">
     <configuration name="LoginTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Selenijum_git_07_06" />
       <extension name="coverage">
@@ -61,9 +59,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LoginTests.userCanLogIn" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenijum_git_07_06" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.LoginTests" />
+      <option name="METHOD_NAME" value="userCanLogIn" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.LoginTests" />
+        <item itemvalue="TestNG.LoginTests.userCanLogIn" />
       </list>
     </recent_temporary>
   </component>
@@ -76,7 +93,27 @@
       <option name="presentableId" value="Default" />
       <updated>1717776136604</updated>
     </task>
+    <task id="LOCAL-00001" summary="Novi komit">
+      <option name="closed" value="true" />
+      <created>1717781118215</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1717781118215</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Novi komit" />
